@@ -1,0 +1,49 @@
+{
+  "photos": "/mnt/g/doan/minh/uvdocrot_ip14pm/bin",
+  "gt": "/mnt/g/doan/minh/pp_study/print_set2/out_set2/gt",
+  "out": "/mnt/g/doan/minh/results_ip14pm_uvdocrot_bin",
+  "variants": [
+    "raw"
+  ],
+  "engines": [
+    "audiveris"
+  ],
+  "smt_variants": null,
+  "smt_pages": null,
+  "steps": [
+    "pre",
+    "run",
+    "report"
+  ],
+  "pp_root": "/mnt/g/doan/minh/pp_study",
+  "py_homr": "/mnt/g/doan/minh/.venv/bin/python",
+  "py_smt": "/mnt/g/doan/minh/.venv-smt/bin/python",
+  "omr_eval": "/mnt/g/doan/minh/smt_eval/omr_eval.py",
+  "smt_omr_eval": "/mnt/g/doan/minh/smt_eval/omr_eval.py",
+  "engines_json": "/mnt/g/doan/minh/omr_eval/engines.json",
+  "smt_batch": "/mnt/g/doan/minh/smt_eval/smt_batch.py",
+  "smt_repo": "/mnt/g/tools/SMT",
+  "smt_model": "PRAIG/smt-fp-grandstaff",
+  "smt_width": 2100,
+  "engine_variants": {
+    "homr": [
+      "raw",
+      "rect",
+      "norm",
+      "bbox"
+    ],
+    "audiveris": [
+      "raw",
+      "rect",
+      "norm",
+      "bin",
+      "bbox"
+    ],
+    "smt": [
+      "raw",
+      "rect",
+      "norm",
+      "bbox"
+    ]
+  }
+}

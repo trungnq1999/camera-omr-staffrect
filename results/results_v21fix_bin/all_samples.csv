@@ -1,0 +1,10 @@
+engine,variant,stem,page,piece,cond,phone,status,parsed,seconds,ed_full,len_full,ser_full,sub,ins,dele,ser_pitch,ser_rhythm,ser_struct
+audiveris,raw,bach_inv07_p2__nen_roi_ip14pm,bach_inv07_p2,bach_inv07,nen_roi,ip14pm,ok,1,9.831,140,149,0.9396,6,0,134,0.9398,0.9111,0.6667
+audiveris,raw,bach_inv07_p2__scan_app_ip14pm,bach_inv07_p2,bach_inv07,scan_app,ip14pm,ok,1,10.107,54,149,0.3624,34,4,16,0.3308,0.1185,0.0
+audiveris,raw,bach_inv09_p1__nghieng_ip14pm,bach_inv09_p1,bach_inv09,nghieng,ip14pm,ok,1,17.304,278,369,0.7534,144,74,60,0.6616,0.3009,1.25
+audiveris,raw,bach_inv09_p2__den_ban_ip14pm,bach_inv09_p2,bach_inv09,den_ban,ip14pm,ok,1,16.006,288,311,0.926,266,10,12,0.9167,0.2671,0.8333
+audiveris,raw,bach_inv09_p2__nen_roi_ip14pm,bach_inv09_p2,bach_inv09,nen_roi,ip14pm,ok,1,14.834,202,311,0.6495,156,10,36,0.6449,0.2383,1.0
+audiveris,raw,bach_inv11_p2__nen_roi_ip14pm,bach_inv11_p2,bach_inv11,nen_roi,ip14pm,no_output,0,3.285,214,214,1.0,0,0,214,1.0,1.0,1.0
+audiveris,raw,haydn_xvi30_3_p1__nghieng_ip14pm,haydn_xvi30_3_p1,haydn_xvi30_3,nghieng,ip14pm,ok,1,14.01,114,163,0.6994,80,4,30,0.6893,0.5122,0.5
+audiveris,raw,schoenberg_19_6_p1__nen_roi_ip14pm,schoenberg_19_6_p1,schoenberg_19_6,nen_roi,ip14pm,ok,1,14.003,100,147,0.6803,89,3,8,0.6667,0.5785,0.7
+audiveris,raw,schoenberg_19_6_p1__nghieng_ip14pm,schoenberg_19_6_p1,schoenberg_19_6,nghieng,ip14pm,no_output,0,3.294,147,147,1.0,0,0,147,1.0,1.0,1.0

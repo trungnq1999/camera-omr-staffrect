@@ -1,0 +1,64 @@
+{
+  "_ghi_chu": "Mỗi engine: lệnh chạy (cmd), nơi tìm kết quả (output_glob), định dạng (musicxml|kern). Biến: {input} ảnh đầu vào, {workdir} thư mục riêng của ảnh, {stem} tên ảnh. Sửa đường dẫn cho đúng máy; đặt enabled=false để tắt.",
+  "homr": {
+    "enabled": true,
+    "cmd": [
+      "homr",
+      "{input}"
+    ],
+    "output_glob": "{workdir}/*.musicxml",
+    "format": "musicxml",
+    "timeout": 300,
+    "jobs": 1
+  },
+  "audiveris": {
+    "enabled": true,
+    "cmd": [
+      "/mnt/g/tools/audiveris/opt/audiveris/bin/Audiveris",
+      "-batch",
+      "-export",
+      "-output",
+      "{workdir}",
+      "{input}"
+    ],
+    "output_glob": "{workdir}/**/*.mxl",
+    "format": "musicxml",
+    "timeout": 600,
+    "jobs": 4,
+    "env": {
+      "JAVA_TOOL_OPTIONS": "-Xmx2g -Djava.io.tmpdir=/mnt/g/tmp -Djna.tmpdir=/mnt/g/tmp"
+    }
+  },
+  "audiveris-win": {
+    "enabled": false,
+    "_ghi_chu": "Cách B: Audiveris bản Windows, gọi từ WSL. Bật cái này thì tắt 'audiveris'. Kiểm tra lại đường dẫn .exe sau khi cài.",
+    "cmd": [
+      "/mnt/c/Program Files/Audiveris/Audiveris.exe",
+      "-batch",
+      "-export",
+      "-output",
+      "{workdir_win}",
+      "{input_win}"
+    ],
+    "output_glob": "{workdir}/**/*.mxl",
+    "format": "musicxml",
+    "timeout": 600,
+    "jobs": 4
+  },
+  "muse-parse-omr": {
+    "enabled": false,
+    "_ghi_chu": "Mô hình riêng của sinh viên. Cần một lệnh nhận 1 ảnh và ghi chuỗi kern ra file; sửa cmd theo inference.py thực tế.",
+    "cmd": [
+      "python",
+      "/mnt/g/doan/minh/Muse-Parse-Omr/src/inference.py",
+      "--image",
+      "{input}",
+      "--output",
+      "{workdir}/{stem}.krn"
+    ],
+    "output_glob": "{workdir}/{stem}.krn",
+    "format": "kern",
+    "timeout": 120,
+    "jobs": 1
+  }
+}

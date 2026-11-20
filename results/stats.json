@@ -1,0 +1,509 @@
+{
+ "ip14pm|v1|homr": {
+  "ser": 47.9,
+  "lo": 41.3,
+  "hi": 55.0,
+  "n": 160,
+  "fail": 10.6
+ },
+ "ip14pm|v1|audiveris": {
+  "ser": 69.9,
+  "lo": 64.1,
+  "hi": 75.3,
+  "n": 160,
+  "fail": 36.2
+ },
+ "ip14pm|v1|smt": {
+  "ser": 72.9,
+  "lo": 67.1,
+  "hi": 78.3,
+  "n": 160,
+  "fail": 0.0
+ },
+ "ip14pm|oracle_rot|homr": {
+  "ser": 27.3,
+  "lo": 21.7,
+  "hi": 33.0,
+  "n": 160,
+  "fail": 3.1
+ },
+ "ip14pm|oracle_rot|audiveris": {
+  "ser": 55.4,
+  "lo": 49.4,
+  "hi": 61.7,
+  "n": 160,
+  "fail": 22.5
+ },
+ "ip14pm|oracle_rot|smt": {
+  "ser": 62.6,
+  "lo": 56.8,
+  "hi": 68.3,
+  "n": 160,
+  "fail": 0.0
+ },
+ "ip14pm|v2.1|homr": {
+  "ser": 11.6,
+  "lo": 8.7,
+  "hi": 14.9,
+  "n": 160,
+  "fail": 1.2
+ },
+ "ip14pm|v2.1|audiveris": {
+  "ser": 38.6,
+  "lo": 33.9,
+  "hi": 43.3,
+  "n": 160,
+  "fail": 8.1
+ },
+ "ip14pm|v2.1|smt": {
+  "ser": 41.4,
+  "lo": 36.5,
+  "hi": 46.2,
+  "n": 160,
+  "fail": 0.0
+ },
+ "ip14pm|v2.2|homr": {
+  "ser": 14.8,
+  "lo": 11.2,
+  "hi": 18.8,
+  "n": 160,
+  "fail": 1.9
+ },
+ "ip14pm|v2.2|audiveris": {
+  "ser": 39.2,
+  "lo": 34.2,
+  "hi": 44.4,
+  "n": 160,
+  "fail": 7.5
+ },
+ "ip14pm|v2.2|smt": {
+  "ser": 35.6,
+  "lo": 30.8,
+  "hi": 40.3,
+  "n": 160,
+  "fail": 0.0
+ },
+ "ip14pm|oracle_rect|homr": {
+  "ser": 7.4,
+  "lo": 5.7,
+  "hi": 9.4,
+  "n": 160,
+  "fail": 1.2
+ },
+ "ip14pm|oracle_rect|audiveris": {
+  "ser": 31.6,
+  "lo": 27.2,
+  "hi": 36.3,
+  "n": 160,
+  "fail": 6.2
+ },
+ "ip14pm|oracle_rect|smt": {
+  "ser": 29.7,
+  "lo": 25.5,
+  "hi": 34.0,
+  "n": 160,
+  "fail": 0.0
+ },
+ "ip14pm|v2.1-v1|homr": {
+  "diff": -36.3,
+  "lo": -43.4,
+  "hi": -29.7
+ },
+ "ip14pm|v2.2-v1|homr": {
+  "diff": -33.1,
+  "lo": -40.6,
+  "hi": -25.7
+ },
+ "ip14pm|v2.2-v2.1|homr": {
+  "diff": 3.2,
+  "lo": -0.0,
+  "hi": 6.9
+ },
+ "ip14pm|v2.1-v1|audiveris": {
+  "diff": -31.3,
+  "lo": -37.4,
+  "hi": -24.5
+ },
+ "ip14pm|v2.2-v1|audiveris": {
+  "diff": -30.7,
+  "lo": -36.6,
+  "hi": -24.6
+ },
+ "ip14pm|v2.2-v2.1|audiveris": {
+  "diff": 0.6,
+  "lo": -2.9,
+  "hi": 4.3
+ },
+ "ip14pm|v2.1-v1|smt": {
+  "diff": -31.4,
+  "lo": -37.7,
+  "hi": -25.4
+ },
+ "ip14pm|v2.2-v1|smt": {
+  "diff": -37.2,
+  "lo": -42.7,
+  "hi": -31.4
+ },
+ "ip14pm|v2.2-v2.1|smt": {
+  "diff": -5.8,
+  "lo": -10.0,
+  "hi": -1.4
+ },
+ "ip14pm|scan_v1_raw|homr": 5.7,
+ "ip14pm|scan_v1_rect|homr": 6.3,
+ "ip14pm|scan_v1_norm|homr": 10.2,
+ "ip14pm|scan_v1_bbox|homr": 9.0,
+ "ip14pm|scan_v1_raw|audiveris": 100.0,
+ "ip14pm|scan_v1_rect|audiveris": 51.7,
+ "ip14pm|scan_v1_norm|audiveris": 42.1,
+ "ip14pm|scan_v1_bin|audiveris": 51.4,
+ "ip14pm|scan_v1_bbox|audiveris": 100.0,
+ "ip14pm|scan_v1_raw|smt": 29.8,
+ "ip14pm|scan_v1_rect|smt": 29.9,
+ "ip14pm|scan_v1_norm|smt": 27.1,
+ "ip14pm|scan_v1_bbox|smt": 30.0,
+ "x12sp|v1|homr": {
+  "ser": 83.2,
+  "lo": 78.4,
+  "hi": 87.4,
+  "n": 160,
+  "fail": 18.8
+ },
+ "x12sp|v1|audiveris": {
+  "ser": 93.1,
+  "lo": 90.0,
+  "hi": 96.0,
+  "n": 160,
+  "fail": 62.5
+ },
+ "x12sp|v1|smt": {
+  "ser": 94.5,
+  "lo": 90.3,
+  "hi": 98.1,
+  "n": 160,
+  "fail": 0.0
+ },
+ "x12sp|v2.1|homr": {
+  "ser": 49.8,
+  "lo": 43.1,
+  "hi": 56.0,
+  "n": 160,
+  "fail": 12.5
+ },
+ "x12sp|v2.1|audiveris": {
+  "ser": 63.9,
+  "lo": 58.1,
+  "hi": 69.8,
+  "n": 160,
+  "fail": 23.8
+ },
+ "x12sp|v2.1|smt": {
+  "ser": 65.7,
+  "lo": 59.9,
+  "hi": 71.3,
+  "n": 160,
+  "fail": 0.0
+ },
+ "x12sp|v2.2|homr": {
+  "ser": 14.3,
+  "lo": 10.9,
+  "hi": 18.2,
+  "n": 160,
+  "fail": 0.6
+ },
+ "x12sp|v2.2|audiveris": {
+  "ser": 45.4,
+  "lo": 40.0,
+  "hi": 50.8,
+  "n": 160,
+  "fail": 8.1
+ },
+ "x12sp|v2.2|smt": {
+  "ser": 52.8,
+  "lo": 47.2,
+  "hi": 58.1,
+  "n": 160,
+  "fail": 0.0
+ },
+ "x12sp|oracle_rect|homr": {
+  "ser": 8.0,
+  "lo": 5.9,
+  "hi": 10.4,
+  "n": 160,
+  "fail": 0.6
+ },
+ "x12sp|oracle_rect|audiveris": {
+  "ser": 40.3,
+  "lo": 35.4,
+  "hi": 45.3,
+  "n": 160,
+  "fail": 3.1
+ },
+ "x12sp|oracle_rect|smt": {
+  "ser": 31.9,
+  "lo": 27.2,
+  "hi": 36.4,
+  "n": 160,
+  "fail": 0.0
+ },
+ "x12sp|v2.1-v1|homr": {
+  "diff": -33.4,
+  "lo": -41.2,
+  "hi": -25.6
+ },
+ "x12sp|v2.2-v1|homr": {
+  "diff": -68.8,
+  "lo": -74.5,
+  "hi": -62.9
+ },
+ "x12sp|v2.2-v2.1|homr": {
+  "diff": -35.4,
+  "lo": -42.3,
+  "hi": -28.7
+ },
+ "x12sp|v2.1-v1|audiveris": {
+  "diff": -29.2,
+  "lo": -35.6,
+  "hi": -22.9
+ },
+ "x12sp|v2.2-v1|audiveris": {
+  "diff": -47.7,
+  "lo": -53.2,
+  "hi": -41.9
+ },
+ "x12sp|v2.2-v2.1|audiveris": {
+  "diff": -18.5,
+  "lo": -24.6,
+  "hi": -12.7
+ },
+ "x12sp|v2.1-v1|smt": {
+  "diff": -28.7,
+  "lo": -35.6,
+  "hi": -20.9
+ },
+ "x12sp|v2.2-v1|smt": {
+  "diff": -41.6,
+  "lo": -49.0,
+  "hi": -34.4
+ },
+ "x12sp|v2.2-v2.1|smt": {
+  "diff": -12.9,
+  "lo": -19.5,
+  "hi": -6.1
+ },
+ "x12sp|scan_v1_raw|homr": 53.5,
+ "x12sp|scan_v1_rect|homr": 51.9,
+ "x12sp|scan_v1_norm|homr": 52.5,
+ "x12sp|scan_v1_bbox|homr": 51.9,
+ "x12sp|scan_v1_raw|audiveris": 61.4,
+ "x12sp|scan_v1_rect|audiveris": 63.4,
+ "x12sp|scan_v1_norm|audiveris": 61.6,
+ "x12sp|scan_v1_bin|audiveris": 62.7,
+ "x12sp|scan_v1_bbox|audiveris": 60.5,
+ "x12sp|scan_v1_raw|smt": 64.3,
+ "x12sp|scan_v1_rect|smt": 64.8,
+ "ip14pm|bycond|homr": {
+  "v1": {
+   "bong": 40.8,
+   "den_ban": 40.3,
+   "nen_roi": 34.9,
+   "nghieng": 75.4,
+   "sang": 48.3,
+   "scan_app": 5.7
+  },
+  "v2.1": {
+   "bong": 5.3,
+   "den_ban": 8.0,
+   "nen_roi": 10.3,
+   "nghieng": 29.1,
+   "sang": 5.3,
+   "scan_app": 6.4
+  },
+  "v2.2": {
+   "bong": 5.2,
+   "den_ban": 16.2,
+   "nen_roi": 12.7,
+   "nghieng": 33.2,
+   "sang": 6.9,
+   "scan_app": 7.0
+  },
+  "oracle_rect": {
+   "bong": 5.0,
+   "den_ban": 6.5,
+   "nen_roi": 5.8,
+   "nghieng": 14.5,
+   "sang": 5.1,
+   "scan_app": 5.7
+  }
+ },
+ "ip14pm|bycond|audiveris": {
+  "v1": {
+   "bong": 74.6,
+   "den_ban": 53.6,
+   "nen_roi": 78.2,
+   "nghieng": 97.7,
+   "sang": 45.3,
+   "scan_app": 51.4
+  },
+  "v2.1": {
+   "bong": 19.5,
+   "den_ban": 29.1,
+   "nen_roi": 65.8,
+   "nghieng": 64.1,
+   "sang": 14.4,
+   "scan_app": 53.7
+  },
+  "v2.2": {
+   "bong": 23.5,
+   "den_ban": 25.0,
+   "nen_roi": 63.7,
+   "nghieng": 68.9,
+   "sang": 14.9,
+   "scan_app": 52.8
+  },
+  "oracle_rect": {
+   "bong": 21.6,
+   "den_ban": 21.9,
+   "nen_roi": 56.6,
+   "nghieng": 44.3,
+   "sang": 13.6,
+   "scan_app": 51.4
+  }
+ },
+ "ip14pm|bycond|smt": {
+  "v1": {
+   "bong": 69.8,
+   "den_ban": 57.4,
+   "nen_roi": 91.9,
+   "nghieng": 97.6,
+   "sang": 47.6,
+   "scan_app": 29.9
+  },
+  "v2.1": {
+   "bong": 48.6,
+   "den_ban": 42.8,
+   "nen_roi": 33.7,
+   "nghieng": 53.9,
+   "sang": 28.3,
+   "scan_app": 29.4
+  },
+  "v2.2": {
+   "bong": 28.0,
+   "den_ban": 28.0,
+   "nen_roi": 38.3,
+   "nghieng": 56.5,
+   "sang": 27.2,
+   "scan_app": 32.1
+  },
+  "oracle_rect": {
+   "bong": 30.1,
+   "den_ban": 26.2,
+   "nen_roi": 25.5,
+   "nghieng": 40.1,
+   "sang": 26.5,
+   "scan_app": 29.8
+  }
+ },
+ "x12sp|bycond|homr": {
+  "v1": {
+   "bong": 94.2,
+   "den_ban": 83.6,
+   "nen_roi": 91.2,
+   "nghieng": 69.5,
+   "sang": 77.3,
+   "scan_app": 53.5
+  },
+  "v2.1": {
+   "bong": 9.8,
+   "den_ban": 53.0,
+   "nen_roi": 64.5,
+   "nghieng": 67.0,
+   "sang": 54.5,
+   "scan_app": 14.5
+  },
+  "v2.2": {
+   "bong": 7.8,
+   "den_ban": 16.3,
+   "nen_roi": 10.6,
+   "nghieng": 27.6,
+   "sang": 9.3,
+   "scan_app": 11.3
+  },
+  "oracle_rect": {
+   "bong": 5.3,
+   "den_ban": 6.1,
+   "nen_roi": 5.6,
+   "nghieng": 16.9,
+   "sang": 6.0,
+   "scan_app": 53.5
+  }
+ },
+ "x12sp|bycond|audiveris": {
+  "v1": {
+   "bong": 98.1,
+   "den_ban": 86.8,
+   "nen_roi": 98.8,
+   "nghieng": 98.8,
+   "sang": 83.2,
+   "scan_app": 62.7
+  },
+  "v2.1": {
+   "bong": 21.6,
+   "den_ban": 70.4,
+   "nen_roi": 75.1,
+   "nghieng": 83.3,
+   "sang": 69.2,
+   "scan_app": 30.0
+  },
+  "v2.2": {
+   "bong": 20.7,
+   "den_ban": 55.1,
+   "nen_roi": 54.6,
+   "nghieng": 72.1,
+   "sang": 24.7,
+   "scan_app": 29.9
+  },
+  "oracle_rect": {
+   "bong": 18.4,
+   "den_ban": 48.3,
+   "nen_roi": 49.3,
+   "nghieng": 66.6,
+   "sang": 18.6,
+   "scan_app": 62.7
+  }
+ },
+ "x12sp|bycond|smt": {
+  "v1": {
+   "bong": 105.9,
+   "den_ban": 84.3,
+   "nen_roi": 100.8,
+   "nghieng": 97.1,
+   "sang": 84.3,
+   "scan_app": 64.8
+  },
+  "v2.1": {
+   "bong": 36.4,
+   "den_ban": 60.1,
+   "nen_roi": 80.9,
+   "nghieng": 65.0,
+   "sang": 86.2,
+   "scan_app": 30.5
+  },
+  "v2.2": {
+   "bong": 34.4,
+   "den_ban": 69.7,
+   "nen_roi": 33.9,
+   "nghieng": 53.3,
+   "sang": 72.9,
+   "scan_app": 30.6
+  },
+  "oracle_rect": {
+   "bong": 35.6,
+   "den_ban": 26.1,
+   "nen_roi": 30.4,
+   "nghieng": 41.4,
+   "sang": 25.7,
+   "scan_app": 64.3
+  }
+ }
+}

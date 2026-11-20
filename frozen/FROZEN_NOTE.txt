@@ -1,0 +1,1 @@
+2026-11-15: FROZEN.sha256 cập nhật cho bản lưu ảnh trung gian dạng JPEG 95 (sửa lúc ổ G đầy, trước lần chạy v1 iPhone 09/11). Thuật toán không đổi; diff đầy đủ ở frozen/recovered/ so với *.v1031.
