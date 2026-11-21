@@ -39,3 +39,4 @@ Some helper documents are in Vietnamese.
 * References and prints are derived from KernScores and ASAP encodings (CC BY-NC-SA 4.0) and the music21 corpus; they are distributed
   under CC BY-NC-SA 4.0. The musical works are in the public domain.
 * Clef templates in `code/rectify_v2*/clef_tpl_f.npy` are cut from renderings of other public-domain pieces.
+Photographs: https://doi.org/10.5281/zenodo.24393100
